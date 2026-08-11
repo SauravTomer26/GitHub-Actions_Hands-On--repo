@@ -1,4 +1,4 @@
-variable "c-rg" {
+variable "c_rg" {
   type = map(any)
 }
 

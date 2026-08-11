@@ -1,5 +1,5 @@
 # ---------- Resource Groups ----------
-p-rg = {
+p_rg = {
   dev-rg = {
     rg_loc  = "eastus"
     managed = "Saurav"
@@ -15,4 +15,17 @@ p-rg = {
 }
 
 # ---------- Storag Account ----------
-
+p_sa = {
+  devstorage9876 = {
+    sa_loc      = "japaneast"
+    sa_rg_name  = "dev-rg"
+    sa_tier     = "Standard"
+    sa_rep_type = "LRS"
+  }
+  teststorage5432 = {
+    sa_loc      = "japaneast"
+    sa_rg_name  = "test-rg"
+    sa_tier     = "Standard"
+    sa_rep_type = "GRS"
+  }
+}
