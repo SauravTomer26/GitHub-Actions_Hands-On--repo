@@ -8,7 +8,7 @@ permissions:
   contents: read
 
 jobs:
-  JOB-1 -- azure-login-test:
+  JOB_1 - azure-login-test:
     runs-on: self-hosted
 
     steps:
