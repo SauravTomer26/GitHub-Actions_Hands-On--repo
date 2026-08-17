@@ -13,7 +13,7 @@ jobs:
 
     steps:
       - name: STEP-1 -- Checkout repository
-      - uses: actions/Checkout@v4
+      - uses: actions/checkout@v4
 
       - name: STEP-2 -- Login to Azure using OIDC
       - uses: azure/login@v3
