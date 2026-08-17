@@ -8,7 +8,7 @@ permissions:
   contents: read
 
 jobs:
-  JOB_1 - azure-login-test:
+  azure-login-test:
     runs-on: self-hosted
 
     steps:
@@ -22,5 +22,5 @@ jobs:
           tenant-id: ${{ secrets.AZURE_TENANT_ID }}
           subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
 
-      - name: STEP-3 -- Verify Azure Login
+      - name: STEP-3 - Verify Azure Login
         run: az account show 
