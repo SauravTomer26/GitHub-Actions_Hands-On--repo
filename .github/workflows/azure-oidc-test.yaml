@@ -12,10 +12,10 @@ jobs:
     runs-on: self-hosted
 
     steps:
-      - name: STEP-1 -- Checkout repository
+      - name: STEP-1 - Checkout repository
         uses: actions/checkout@v4
 
-      - name: STEP-2 -- Login to Azure using OIDC
+      - name: STEP-2 - Login to Azure using OIDC
         uses: azure/login@v3
         with:
           client-id: ${{ secrets.AZURE_CLIENT_ID }}
