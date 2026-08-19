@@ -1,14 +1,14 @@
 # ---------- Resource Groups ----------
 p_rg = {
-  dev-rg = {
+  Saurav-dev-rg = {
     rg_loc  = "eastus"
     managed = "Saurav"
   }
-  test-rg = {
+  Saurav-test-rg = {
     rg_loc  = "centralindia"
     managed = "Anurag"
   }
-  prod-rg = {
+  Saurav-prod-rg = {
     rg_loc  = "westeurope"
     managed = "Gaurav"
   }
