@@ -16,13 +16,13 @@ p_rg = {
 
 # ---------- Storag Account ----------
 p_sa = {
-  devstorage9876 = {
+  devstorage19082026 = {
     sa_loc      = "japaneast"
     sa_rg_name  = "Saurav-dev-rg"
     sa_tier     = "Standard"
     sa_rep_type = "LRS"
   }
-  teststorage5432 = {
+  teststorage19082026 = {
     sa_loc      = "japaneast"
     sa_rg_name  = "Saurav-test-rg"
     sa_tier     = "Standard"
