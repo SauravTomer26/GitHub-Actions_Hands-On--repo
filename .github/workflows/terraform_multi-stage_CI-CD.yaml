@@ -51,6 +51,7 @@ jobs:
   JOB_2-Terraform-APPLY:
     needs: JOB_1-Teraform-PLAN
     runs-on: self-hosted
+    environment: TEST-env
 
     defaults:
       run:
