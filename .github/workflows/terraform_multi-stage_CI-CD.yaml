@@ -9,7 +9,7 @@ permissions:
 
 jobs:
   # ----- JOB 1 TERRAFORM PLAN -----
-  JOB 1 - Teraform-PLAN:
+  JOB_1-Teraform-PLAN:
     runs-on: self-hosted
   
     defaults:
@@ -48,7 +48,7 @@ jobs:
 
 
   # ----- JOB 2 TERRAFORM APPLY ----- 
-  JOB 2 - Terraform-APPLY:
+  JOB_2-Terraform-APPLY:
     needs: Teraform-PLAN
     runs-on: self-hosted
 
