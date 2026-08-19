@@ -49,7 +49,7 @@ jobs:
 
   # ----- JOB 2 TERRAFORM APPLY ----- 
   JOB_2-Terraform-APPLY:
-    needs: Teraform-PLAN
+    needs: JOB_1-Teraform-PLAN
     runs-on: self-hosted
 
     defaults:
