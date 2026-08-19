@@ -50,7 +50,7 @@ jobs:
   # ----- JOB 2 TERRAFORM APPLY ----- 
   Terraform-APPLY:
     needs: Teraform-PLAN
-    run-on: self-hosted
+    runs-on: self-hosted
 
     defaults:
       run:
